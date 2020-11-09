@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS Files-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-reboot.min.css">
+    <!-- Social Buttons -->
+    <link rel="stylesheet" href="./css/bootstrap-social.css">
+    <!-- Sweet Alert -->
+    <link rel="stylesheet" href="./css/sweetalert.css">
+    <!-- jQuery -->
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <title>Sign up</title>
+</head>
+<body>
+
+<div class="row">
+    <div class="jumbotron col-4 mx-auto my-5 pt-5">
+        <h1 class="h1 mb-4 text-center">Sign up</h1>
+        <form rel>
+            <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" class="form-control" id="first-name" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" class="form-control" id="last-name" placeholder="">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <button type="submit" class="btn btn-secondary" id="register-user">Submit</button>
+            <div class="row text-white mt-3">
+                <a class="btn btn-block btn-social btn-facebook" href="https://www.facebook.com/login" onclick="window.open(this.href, target='_blank')">                    
+                    <span class="fab fa-facebook"></span> Sign up with Facebook
+                  </a>
+                    <a class="btn btn-block btn-social btn-google" href="https://accounts.google.com/login" onclick="window.open(this.href, target='_blank')">                    
+                    <span class="fab fa-google"></span> Sign up with Google
+                  </a>            
+            </div>
+        </form>
+    </div>
+    <div class="jumbotron col-4 mx-auto my-5 pt-5">
+        <h1 class="h1 mb-4 text-center">Registered users</h1>
+        <ul class="list-group" id="registered-users">
+            <li class="list-group-item">Ivan Ivanov - ivanov@gmail.com
+            </li>
+          </ul>
+    </div>
+</div>
+
+    <!-- Bootstrap JS Files-->
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- Sweet Alert -->
+    <script src="./js/sweetalert.js"></script>
+    <!-- Custom JS -->
+    <script src="./js/app.js"></script>
+
+</body>
+</html>
